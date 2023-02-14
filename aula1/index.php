@@ -11,8 +11,15 @@
   <h1>TESTE</h1>
     <?php 
       //PHP
+      $array = ["1", 8, 9];
+      echo($array[0]);
+      $var = "<br>anus";
+      echo($var);
       echo "<h1 onclick='callother()' style='font-size: 5em;'>Hello World</h1>";
     ?>
+    <form action="complicado.php" method="get">
+        <input type="submit" value="">
+    </form>
   <script>
     function callother(){
       console.log("deu certor")
