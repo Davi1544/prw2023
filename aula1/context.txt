@@ -1,0 +1,5 @@
+os arquivos do php (pelo xampp se iniciam pelo htdocs). Ex:
+
+--> ocalhost/prw2023/aula1/index.php
+
+
