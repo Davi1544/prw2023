@@ -10,7 +10,7 @@
     $a = intval($val1[0]);
     $b = intval($val1[1]);
     $c = intval($val1[2]);
-    $d = intval($val1[3]);
+    $d = intval($val1[3]); 
  
     if($b > $c && $d > $a){
         if(($c + $d) > ($a + $b)){
