@@ -12,9 +12,12 @@
     $sumM = 0;
     
     if($mi == $mf && $hi == $hf){
+        
         $sumM = 0;
         $sumH = 24;
+
     }else{
+
         if($hf > $hi){
           if($mf >= $mi){
             $sumH = $hf - $hi;
@@ -34,7 +37,8 @@
             $sumH = 23 - ($hi - $hf);
             $sumM = 60 - ($mi - $mf);
           }
-        }else if($hi == $hf){
+        }
+        else if($hi == $hf){
           if($mf >= $mi){
             $sumH = $hf - $hi;
             $sumM = $mf - $mi;
