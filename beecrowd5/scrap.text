@@ -1,0 +1,28 @@
+/*<?php
+	while(true){
+	  $n = readline();
+	  
+	  if($n == 0) break;
+	  $rl = array();
+	  
+	  $mr = 0;
+	  $mrl = "";
+	  for($i = 0; $i < $n; $i++){
+	    $str = readline();
+	    
+	    $stlen = strlen($str);
+	    
+	    for($g = 0; $g < $stlen; $g++){
+	      
+	      $rl[$str[$g]] += 1;
+	    
+  	    if($mr < $rl[$str[$g]]){
+  	      $mr = $rl[$str[$g]];
+  	      $mrl = $str[$g];
+  	    }
+	    }
+	  }
+	  
+	  print("$mr --> $mrl");
+	}
+?>*/
