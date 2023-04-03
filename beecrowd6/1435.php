@@ -21,10 +21,15 @@
           for($j = 0; $j < $n; $j++){
             $v = $numbs[$i][$j];
             
-            if($j == 0){
-              print("   $v");
-            }else{
-              print("    $v");
+            settype($v, "string");
+            
+            $vlen = strlen($v);
+            
+            for($t = 0; $t < 3-$vlen; $t++) $v = " ".$v;
+            
+            print($v);
+            if($j != $n-1){
+              print(" ");
             }
           }
           print("\n");
